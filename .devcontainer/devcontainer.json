@@ -8,9 +8,7 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "forwardPorts": [
-    3030
-  ],
+  "forwardPorts": [3030],
   "customizations": {
     "vscode": {
       "settings": {
@@ -19,9 +17,7 @@
           ".devcontainer": true,
           ".update_devcontainer.sh": true
         },
-        "tailwindCSS.classAttributes": [
-          "class"
-        ],
+        "tailwindCSS.classAttributes": ["class"],
         "tailwindCSS.includeLanguages": {
           "typescript": "css"
         },

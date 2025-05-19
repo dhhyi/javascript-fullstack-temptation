@@ -1,0 +1,19 @@
+{
+  "overrides": [
+    {
+      "files": ["slides.md", "pages/*.md"],
+      "options": {
+        "parser": "slidev",
+        "plugins": ["prettier-plugin-slidev"]
+      }
+    },
+    {
+      "files": ["*.sh", ".git*", ".*ignore", ".npmrc"],
+      "options": {
+        "parser": "sh",
+        "indent": 4,
+        "plugins": ["prettier-plugin-sh"]
+      }
+    }
+  ]
+}

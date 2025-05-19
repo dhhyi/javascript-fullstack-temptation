@@ -1,0 +1,4 @@
+set -e
+
+pnpm prettier --write '**/*.*'
+git update-index --again
