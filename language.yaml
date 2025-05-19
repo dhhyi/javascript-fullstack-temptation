@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dhhyi/devcontainer-creator/dist/language_schema.json
+extends: dcc://javascript-pnpm
+devcontainer:
+  initialize: pnpm install
+  ports:
+    - 3030
+extras:
+  - named-volumes
+  - tmux
+namedVolumes:
+  node_modules: javascript-fullstack-temptation-node-modules
+  /home/pnpm: javascript-fullstack-temptation-pnpm-store
+  /home/vscode/.local/state/lazygit: javascript-fullstack-temptation-lazygit-history
+vscode:
+  extensions:
+    - esbenp.prettier-vscode
+    - bradlc.vscode-tailwindcss
+    - streetsidesoftware.code-spell-checker
+    - bierner.markdown-preview-github-styles
+    - github.vscode-github-actions
+    - yzhang.markdown-all-in-one
+    - redhat.vscode-yaml
+    - aaron-bond.better-comments
+    - peakchen90.open-html-in-browser
+    - Vue.volar
+    - Nuxt.mdc
+  settings:
+    editor.defaultFormatter: esbenp.prettier-vscode
+    tailwindCSS.classAttributes:
+      - class
+    tailwindCSS.includeLanguages:
+      typescript: css

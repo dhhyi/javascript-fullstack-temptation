@@ -1,0 +1,49 @@
+{
+  "mounts": [
+    "type=volume,target=${containerWorkspaceFolder}/node_modules,source=javascript-fullstack-temptation-node-modules",
+    "type=volume,target=/home/pnpm,source=javascript-fullstack-temptation-pnpm-store",
+    "type=volume,target=/home/vscode/.local/state/lazygit,source=javascript-fullstack-temptation-lazygit-history"
+  ],
+  "postStartCommand": "sudo chown vscode node_modules /home/pnpm /home/vscode/.local/state/lazygit && pnpm install",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [
+    3030
+  ],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "files.exclude": {
+          ".devcontainer": true,
+          ".update_devcontainer.sh": true
+        },
+        "tailwindCSS.classAttributes": [
+          "class"
+        ],
+        "tailwindCSS.includeLanguages": {
+          "typescript": "css"
+        },
+        "terminal.integrated.defaultProfile.linux": "tmux",
+        "terminal.integrated.profiles.linux": {
+          "tmux": {
+            "path": "/tmux-or-else.sh"
+          }
+        }
+      },
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss",
+        "streetsidesoftware.code-spell-checker",
+        "bierner.markdown-preview-github-styles",
+        "github.vscode-github-actions",
+        "yzhang.markdown-all-in-one",
+        "redhat.vscode-yaml",
+        "aaron-bond.better-comments",
+        "peakchen90.open-html-in-browser",
+        "Vue.volar"
+      ]
+    }
+  }
+}
