@@ -24,6 +24,7 @@ vscode:
     - peakchen90.open-html-in-browser
     - Vue.volar
     - Nuxt.mdc
+    - antfu.slidev
   settings:
     editor.defaultFormatter: esbenp.prettier-vscode
     tailwindCSS.classAttributes:

@@ -1,0 +1,11 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "never",
+    "source.organizeImports": "explicit"
+  },
+  "editor.fontSize": 20,
+  "editor.lineHeight": 0,
+  "editor.fontWeight": "normal",
+  "editor.fontFamily": "monospace",
+  "editor.lineNumbers": "off"
+}
