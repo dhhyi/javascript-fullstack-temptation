@@ -1,0 +1,10 @@
+{
+  "customizations": {
+    "vscode": {
+      "extensions": ["dbaeumer.vscode-eslint"]
+    },
+    "codespaces": {
+      "openFiles": ["example.js"]
+    }
+  }
+}
