@@ -1,5 +1,6 @@
 ---
 title: History of JavaScript 1
+class: devil
 ---
 
 # JavaScript has a strange history!
@@ -16,6 +17,7 @@ History
 
 ---
 title: History of JavaScript 2
+class: devil
 ---
 
 # Node.js has a strange history!

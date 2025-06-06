@@ -1,5 +1,6 @@
 ---
 title: JavaScript is weird! 1
+class: devil
 ---
 
 # JavaScript is weird!
@@ -25,6 +26,7 @@ title: JavaScript is weird! 1
 
 ---
 title: JavaScript is weird! #2
+class: devil
 ---
 
 # JavaScript is weird! #2
@@ -47,9 +49,10 @@ A: Wow, a lot of effort for this presentation! What is this based on?
 
 ---
 title: JavaScript is weird! #3
+class: angel
 ---
 
-# JavaScript is weird! #3
+# JavaScript can be tamed!
 
 <a href="https://codespaces.new/dhhyi/javascript-fullstack-temptation/tree/examples/weirdness?quickstart=1&file=example.js" target="_blank" class="m-auto h-full block flex justify-center items-center">
   <img src="https://github.com/codespaces/badge.svg" alt="Open in GitHub Codespaces" width="400">
