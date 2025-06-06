@@ -19,81 +19,15 @@ INTRO
 -->
 
 ---
-title: The strange History of JavaScript
+src: pages/history-of-javascript.md
 ---
 
-# JavaScript has a strange history!
-
-- built within 10 days in May 1995 by Brendon Eich for Netscape Navigator
-
-- enhance static web pages with dynamic content by scripting
-
-- originally supposed to "glue" Java code to HTML
-
-- Ryan Dahl brought JavaScript to the server in 2009
-
-- 2010 npm was created
-
-<!--
-History
--->
-
+---
+src: pages/javascript-is-weird.md
 ---
 
-# JavaScript is weird!
-
-```jseval {monaco-run} { autorun:false, editorOptions: { scrollbar: { vertical: 'hidden', horizontal: 'hidden' } } }
-"2" + 1
-```
-
-```jseval {monaco-run} { autorun:false, editorOptions: { scrollbar: { vertical: 'hidden', horizontal: 'hidden' } } }
-[] == 0
-0 == "0"
-```
-
-```jseval {monaco-run} { autorun:false, editorOptions: { scrollbar: { vertical: 'hidden', horizontal: 'hidden' } } }
-'b' + 'a' + +'a' + 'a'
-```
-
-<!--
-1. "2" - 1 -> 0
-2. [] == "0" -> false
-3. baNaNa
--->
-
 ---
-
-# JavaScript is weird! #2
-
-```js {monaco-run} { autorun:false, editorOptions: { scrollbar: { vertical: 'hidden', horizontal: 'hidden' } } }
-console.log(a);
-var a = 1;
-```
-
-```jseval {monaco-run} { autorun:false, editorOptions: { scrollbar: { vertical: 'hidden', horizontal: 'hidden' } } }
-[1, 5, 12, 20, 80].sort()
-```
-
-<!--
-1. uncomment line with var -> ERROR
-2. scrambles order
-
-A: Wow, a lot of effort for this presentation! What is this based on?
--->
-
----
-
-# JavaScript is weird! #3
-
-<a href="https://codespaces.new/dhhyi/javascript-fullstack-temptation/tree/examples/weirdness?quickstart=1&file=example.js" target="_blank" class="m-auto h-full block flex justify-center items-center">
-  <img src="https://github.com/codespaces/badge.svg" alt="Open in GitHub Codespaces" width="400">
-</a>
-
-<!--
-Fix code using eslint in GitHub Codespaces
-(JS Web IDE, btw.)
--->
-
+title: node_modules
 ---
 
 <img class="mx-auto" src="./pages/mode_modules.webp" alt="Node Modules" width="600">
