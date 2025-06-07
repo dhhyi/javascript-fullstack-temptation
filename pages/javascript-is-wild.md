@@ -1,9 +1,9 @@
 ---
-title: JavaScript is weird! 1
+title: JavaScript is wild! 1
 class: devil
 ---
 
-# JavaScript is weird!
+# JavaScript is wild!
 
 ```jseval {monaco-run} { autorun:false, editorOptions: { scrollbar: { vertical: 'hidden', horizontal: 'hidden' } } }
 "2" + 1
@@ -25,11 +25,11 @@ class: devil
 -->
 
 ---
-title: JavaScript is weird! #2
+title: JavaScript is wild! 2
 class: devil
 ---
 
-# JavaScript is weird! #2
+# JavaScript is wild! #2
 
 ```js {monaco-run} { autorun:false, editorOptions: { scrollbar: { vertical: 'hidden', horizontal: 'hidden' } } }
 console.log(a);
@@ -48,7 +48,7 @@ A: Wow, a lot of effort for this presentation! What is this based on?
 -->
 
 ---
-title: JavaScript is weird! #3
+title: JavaScript is wild! 3
 class: angel
 ---
 

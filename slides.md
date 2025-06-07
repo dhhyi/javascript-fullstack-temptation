@@ -23,7 +23,7 @@ src: pages/history-of-javascript.md
 ---
 
 ---
-src: pages/javascript-is-weird.md
+src: pages/javascript-is-wild.md
 ---
 
 ---
