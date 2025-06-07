@@ -20,14 +20,15 @@ vscode:
     - github.vscode-github-actions
     - yzhang.markdown-all-in-one
     - redhat.vscode-yaml
-    - aaron-bond.better-comments
     - peakchen90.open-html-in-browser
     - Vue.volar
     - Nuxt.mdc
     - antfu.slidev
+    - Gruntfuggly.todo-tree
   settings:
     editor.defaultFormatter: esbenp.prettier-vscode
     tailwindCSS.classAttributes:
       - class
     tailwindCSS.includeLanguages:
       typescript: css
+    todo-tree.highlights.enabled: false

@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/devcontainers/spec/refs/heads/main/schemas/devContainer.schema.json",
   "mounts": [
     "type=volume,target=${containerWorkspaceFolder}/node_modules,source=javascript-fullstack-temptation-node-modules",
     "type=volume,target=/home/pnpm,source=javascript-fullstack-temptation-pnpm-store",
@@ -26,7 +27,8 @@
           "tmux": {
             "path": "/tmux-or-else.sh"
           }
-        }
+        },
+        "todo-tree.highlights.enabled": false
       },
       "extensions": [
         "esbenp.prettier-vscode",
@@ -36,9 +38,11 @@
         "github.vscode-github-actions",
         "yzhang.markdown-all-in-one",
         "redhat.vscode-yaml",
-        "aaron-bond.better-comments",
         "peakchen90.open-html-in-browser",
-        "Vue.volar"
+        "Vue.volar",
+        "Nuxt.mdc",
+        "antfu.slidev",
+        "Gruntfuggly.todo-tree"
       ]
     }
   }
