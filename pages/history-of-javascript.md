@@ -27,3 +27,21 @@ class: devil
 - criticized the "blocking" nature of I/O in traditional web servers
 
 - 2010 npm was created
+
+---
+title: History of JavaScript 3
+class: devil
+---
+
+# History of the Web
+
+---
+title: History of other languages
+class: angel
+---
+
+- Java was created in 1995 at Sun Microsystems for interactive television
+
+- Python was created in 1991 for Amoeba OS (a distributed operating system) which was not continued after a few versions
+
+- C# was created in 2000 at Microsoft
