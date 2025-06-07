@@ -5,14 +5,15 @@ class: devil
 
 # JavaScript has a strange history!
 
-- built within **10 days** in May 1995 by Brendon Eich for Netscape Navigator
+- built within **10 days** in May 1995 by Brendan Eich for Netscape Navigator
 
 - enhance static web pages with dynamic content by scripting
 
-- originally supposed to "glue" Java code to HTML
+<!-- TODO: insert logo of netscape navigator -->
+<!-- TODO: insert picture of Java applet? -->
 
 <!--
-History
+NOTES
 -->
 
 ---
@@ -24,9 +25,17 @@ class: devil
 
 - Ryan Dahl brought JavaScript to the server in 2009
 
-- criticized the "blocking" nature of I/O in traditional web servers
+- criticized the "blocking" nature of I/O in traditional web servers like Apache
 
-- 2010 npm was created
+<!-- TODO: insert logo of Apache Http -->
+
+- 2010 npm was created to host and distribute modules
+
+<!-- TODO: insert Talk where Dahl regrets it -->
+
+<!--
+NOTES
+-->
 
 ---
 title: History of JavaScript 3
@@ -35,13 +44,25 @@ class: devil
 
 # History of the Web
 
+<!-- TODO: insert YouTube Short from Fireship -->
+
+<!--
+NOTES
+-->
+
 ---
 title: History of other languages
 class: angel
 ---
 
-- Java was created in 1995 at Sun Microsystems for interactive television
+# History doesn't matter
 
-- Python was created in 1991 for Amoeba OS (a distributed operating system) which was not continued after a few versions
+- Java was created in 1995 at Sun Microsystems for interactive television.
 
-- C# was created in 2000 at Microsoft
+- Python was created in 1991 for Amoeba OS (a distributed operating system) which was not continued after a few versions.
+
+- Lua was created in 1993 as an embeddable scripting language for extending applications. Now it is really big in the Gaming industry.
+
+<!--
+NOTES
+-->
