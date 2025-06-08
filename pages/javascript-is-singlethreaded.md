@@ -1,5 +1,4 @@
 ---
-title: JavaScript is Single-Threaded 1
 class: devil
 ---
 
@@ -20,7 +19,7 @@ NOTES
 -->
 
 ---
-title: JavaScript is Single-Threaded 2
+title: Potatoes running DOOM
 layout: center
 class: devil
 ---
@@ -32,7 +31,6 @@ NOTES
 -->
 
 ---
-title: JavaScript is Single-Threaded 3
 class: angel
 ---
 

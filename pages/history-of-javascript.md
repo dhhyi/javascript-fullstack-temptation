@@ -1,5 +1,4 @@
 ---
-title: History of JavaScript 1
 class: devil
 ---
 
@@ -17,7 +16,6 @@ NOTES
 -->
 
 ---
-title: History of JavaScript 2
 class: devil
 ---
 
@@ -38,12 +36,10 @@ NOTES
 -->
 
 ---
-title: History of JavaScript 3
+title: The History of the Web Development
 class: devil
 layout: center
 ---
-
-<!-- # The History of the Web Development -->
 
 <Youtube id="aXcuz6fn8_w" height="500px" />
 
@@ -52,7 +48,6 @@ NOTES
 -->
 
 ---
-title: History of other languages
 class: angel
 ---
 
