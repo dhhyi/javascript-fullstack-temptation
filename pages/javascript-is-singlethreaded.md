@@ -15,7 +15,8 @@ class: devil
 </v-clicks>
 
 <!--
-NOTES
+D: stress out that it is single-threaded
+D: when you want to downgrade your backend speed... *click*
 -->
 
 ---
@@ -27,7 +28,7 @@ class: devil
 ![Potatoes running DOOM](./potatoes-running-doom.jpg)
 
 <!--
-NOTES
+D: you might as well run your server on a calculator supplied by potatoes
 -->
 
 ---

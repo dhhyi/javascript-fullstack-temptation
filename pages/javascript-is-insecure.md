@@ -1,8 +1,9 @@
 ---
-title: JavaScript is insecure 1
+class: devil
+layout: center
 ---
 
-<img class="mx-auto" src="./node_modules.webp" alt="Node Modules" width="600">
+![Node Modules Gravity](./node_modules.webp)
 
 <!--
 D: JS package manager download the entire internet for every project.
