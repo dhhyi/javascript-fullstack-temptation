@@ -55,6 +55,8 @@ class: angel
   <img src="https://github.com/codespaces/badge.svg" alt="Open in GitHub Codespaces" width="400">
 </a>
 
+<!-- TODO: extend example with typescript linting to check with https://typescript-eslint.io/rules/require-array-sort-compare/ -->
+
 <!--
 Fix code using eslint in GitHub Codespaces
 (JS Web IDE, btw.)
