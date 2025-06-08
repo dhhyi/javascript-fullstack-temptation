@@ -1,20 +1,19 @@
 ---
-title: JavaScript is wild! 1
 class: devil
 ---
 
 # JavaScript is wild!
 
-```jseval {monaco-run} { autorun:false, editorOptions: { scrollbar: { vertical: 'hidden', horizontal: 'hidden' } } }
+```jseval {monaco-run} { autorun:false }
 "2" + 1
 ```
 
-```jseval {monaco-run} { autorun:false, editorOptions: { scrollbar: { vertical: 'hidden', horizontal: 'hidden' } } }
+```jseval {monaco-run} { autorun:false }
 [] == 0
 0 == "0"
 ```
 
-```jseval {monaco-run} { autorun:false, editorOptions: { scrollbar: { vertical: 'hidden', horizontal: 'hidden' } } }
+```jseval {monaco-run} { autorun:false }
 'b' + 'a'+ +'a' + 'a'
 ```
 
@@ -25,18 +24,17 @@ class: devil
 -->
 
 ---
-title: JavaScript is wild! 2
 class: devil
 ---
 
 # JavaScript is wild! #2
 
-```js {monaco-run} { autorun:false, editorOptions: { scrollbar: { vertical: 'hidden', horizontal: 'hidden' } } }
+```js {monaco-run} { autorun:false }
 console.log(a);
 var a = 1;
 ```
 
-```jseval {monaco-run} { autorun:false, editorOptions: { scrollbar: { vertical: 'hidden', horizontal: 'hidden' } } }
+```jseval {monaco-run} { autorun:false }
 [1, 5, 12, 20, 80].sort()
 ```
 
@@ -48,7 +46,6 @@ A: Wow, a lot of effort for this presentation! What is this based on?
 -->
 
 ---
-title: JavaScript is wild! 3
 class: angel
 ---
 
@@ -62,3 +59,90 @@ class: angel
 Fix code using eslint in GitHub Codespaces
 (JS Web IDE, btw.)
 -->
+
+---
+class: angel
+---
+
+# JavaScript is awesome!
+
+## Truthy and Falsy
+
+- `0`, `NaN`, `""`, `null`, `undefined`, and `false` are falsy
+- everything else is truthy
+
+```js {monaco}
+if (formElement.value) {
+  // do something
+}
+```
+
+---
+class: angel
+---
+
+# JavaScript is awesome! #2
+
+## Optional Chaining with Elvis Operator
+
+```ts {monaco}
+interface User {
+  name: string;
+  address?: {
+    city: string;
+    country?: string;
+  };
+}
+
+const user: User = { name: "John" };
+
+const city = user.address?.city;
+```
+
+<v-click>
+
+> There is also an eslint rule to disallow optional chaining when unnecessary.
+
+</v-click>
+
+---
+class: angel
+---
+
+# JavaScript is awesome! #3
+
+## Nullish Coalescing Operator
+
+```ts {monaco}
+interface User {
+  name: string;
+  address?: { city: string; country?: string };
+}
+
+const user: User = { name: "John" };
+
+const city = user.address?.city ?? "Unknown City";
+```
+
+---
+class: angel
+---
+
+# TypeScript is awesome!
+
+```ts {monaco}
+const eventTypes = ["click", "mouseover"];
+
+type InferArrayType<T> = T extends (infer U)[] ? U : never;
+
+type EventType = InferArrayType<typeof eventTypes>;
+
+function handleEvent(eventType: EventType) {
+  switch (eventType) {
+    case "click":
+      break;
+    case "mousover":
+      break;
+  }
+}
+```
