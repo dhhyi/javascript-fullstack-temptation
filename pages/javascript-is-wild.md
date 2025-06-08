@@ -66,6 +66,26 @@ Fix code using eslint in GitHub Codespaces
 class: angel
 ---
 
+# ESLint is your friend!
+
+- linter for JavaScript, TypeScript, Templates
+
+- easily create custom rules for custom code style guides
+
+- integrates with most editors
+
+- fixable rules
+
+<!-- TODO: add ESLint logo -->
+
+<!--
+NOTES
+-->
+
+---
+class: angel
+---
+
 # JavaScript is awesome! -- Truthy and Falsy
 
 - `0`, `NaN`, `""`, `null`, `undefined`, and `false` are falsy
