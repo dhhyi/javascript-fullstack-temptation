@@ -64,9 +64,7 @@ Fix code using eslint in GitHub Codespaces
 class: angel
 ---
 
-# JavaScript is awesome!
-
-## Truthy and Falsy
+# JavaScript is awesome! -- Truthy and Falsy
 
 - `0`, `NaN`, `""`, `null`, `undefined`, and `false` are falsy
 - everything else is truthy
@@ -81,9 +79,7 @@ if (formElement.value) {
 class: angel
 ---
 
-# JavaScript is awesome! #2
-
-## Optional Chaining with Elvis Operator
+# JavaScript is awesome! -- Optional Chaining with Elvis Operator
 
 ```ts {monaco}
 interface User {
@@ -109,9 +105,7 @@ const city = user.address?.city;
 class: angel
 ---
 
-# JavaScript is awesome! #3
-
-## Nullish Coalescing Operator
+# JavaScript is awesome! -- Nullish Coalescing Operator
 
 ```ts {monaco}
 interface User {
@@ -146,3 +140,31 @@ function handleEvent(eventType: EventType) {
   }
 }
 ```
+
+---
+class: angel
+---
+
+# TypeScript is awesome! -- Duck Typing
+
+<!-- prettier-ignore -->
+```ts {monaco} { editorOptions: { wordWrap: 'on' } }
+type User = { name: string; age: number; }
+const user: User = { name: "John", age: 30 };
+
+interface Car { name: string; model: string; }
+const car: Car = { name: "Toyota", model: "Corolla" };
+
+class Monument { constructor(public name: string) {} }
+const monument = new Monument("Eiffel Tower");
+
+function printName(obj: User | Car | Monument) { /* stuff */ }
+
+printName(user);
+printName(car);
+printName(monument);
+```
+
+<!--
+NOTES
+-->
