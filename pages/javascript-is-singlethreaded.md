@@ -21,7 +21,7 @@ NOTES
 
 ---
 title: JavaScript is Single-Threaded 2
-layout: full
+layout: center
 class: devil
 ---
 
