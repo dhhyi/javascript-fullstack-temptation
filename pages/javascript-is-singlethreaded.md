@@ -36,26 +36,14 @@ class: angel
 layout: center
 ---
 
-<style>
-    h1, h2, h3 {
-        text-align: center;
-    }
-</style>
-
-# JavaScript is a
-
-## single-threaded
-
-## non-blocking
-
-## asynchronous
-
-## concurrent
-
-## language
+<div class="text-center">
+    <h1>JavaScript is a</h1>
+    <h2>single-threaded<br />non-blocking<br />asynchronous<br />concurrent<br /></h2>
+    <h2 class="mt-4">language</h2>
+</div>
 
 <!--
-NOTES
+A: The JavaScript Runtime runs JavaScript Code in a single thread, but provides concurrency with via asynchronity in a non-blocking way through the runtime.
 -->
 
 ---
