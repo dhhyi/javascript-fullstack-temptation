@@ -40,11 +40,12 @@ NOTES
 ---
 title: History of JavaScript 3
 class: devil
+layout: center
 ---
 
-# History of the Web
+<!-- # The History of the Web Development -->
 
-<!-- TODO: insert YouTube Short from Fireship -->
+<Youtube id="aXcuz6fn8_w" height="500px" />
 
 <!--
 NOTES
