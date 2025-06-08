@@ -32,10 +32,37 @@ NOTES
 
 ---
 class: angel
+layout: center
 ---
 
-# JavaScript is a single-threaded non-blocking asynchronous concurrent language
+<style>
+    h1, h2, h3 {
+        text-align: center;
+    }
+</style>
+
+# JavaScript is a
+
+## single-threaded
+
+## non-blocking
+
+## asynchronous
+
+## concurrent
+
+## language
 
 <!--
 NOTES
+-->
+
+---
+class: angel
+---
+
+<!-- TODO: insert diagram of JavaScript Runtime -->
+
+<!--
+- explain architecture of JavaScript Runtime
 -->

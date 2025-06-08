@@ -12,7 +12,7 @@ class: devil
 <!-- TODO: insert picture of Java applet? -->
 
 <!--
-NOTES
+- Just 10 days!!
 -->
 
 ---
@@ -32,7 +32,7 @@ class: devil
 <!-- TODO: insert Talk where Dahl regrets it -->
 
 <!--
-NOTES
+- ported V8 JavaScript engine from Google Chrome to Linux
 -->
 
 ---
@@ -44,7 +44,7 @@ layout: center
 <Youtube id="aXcuz6fn8_w" height="500px" />
 
 <!--
-NOTES
+- from here on, web development is a complete mess
 -->
 
 ---
