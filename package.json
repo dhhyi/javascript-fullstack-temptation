@@ -9,10 +9,10 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@slidev/cli": "^51.7.1",
+    "@slidev/cli": "^51.8.1",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
-    "vue": "^3.5.14"
+    "vue": "^3.5.16"
   },
   "devDependencies": {
     "husky": "^9.1.7",
