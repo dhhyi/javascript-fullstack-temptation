@@ -47,6 +47,7 @@ A: The JavaScript Runtime runs JavaScript Code in a single thread, but provides 
 -->
 
 ---
+title: JavaScript Runtime Architecture
 class: angel
 ---
 
@@ -54,4 +55,28 @@ class: angel
 
 <!--
 - explain architecture of JavaScript Runtime
+-->
+
+---
+class: angel
+---
+
+# Offloading to other APIs
+
+<!-- TODO: insert component loading Chuck Norris Joke -->
+
+<!--
+NOTES
+-->
+
+---
+class: angel
+---
+
+# Using WASM / WASI
+
+<!-- TODO: come up with a running WebAssembly example -->
+
+<!--
+NOTES
 -->
