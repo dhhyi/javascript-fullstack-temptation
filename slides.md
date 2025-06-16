@@ -23,11 +23,11 @@ src: pages/history-of-javascript.md
 ---
 
 ---
-src: pages/javascript-is-wild.md
+src: pages/javascript-is-singlethreaded.md
 ---
 
 ---
-src: pages/javascript-is-singlethreaded.md
+src: pages/javascript-is-wild.md
 ---
 
 ---

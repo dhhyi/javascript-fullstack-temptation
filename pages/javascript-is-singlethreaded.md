@@ -10,7 +10,7 @@ class: devil
 
 - it can only execute **one piece** of JS **at a time**
 
-- **no parallel execution** of JavaScript code
+- **no parallel execution** of JavaScript code because of event loop
 
 </v-clicks>
 
@@ -28,7 +28,45 @@ class: devil
 ![Potatoes running DOOM](./potatoes-running-doom.jpg)
 
 <!--
-D: you might as well run your server on a calculator supplied by potatoes
+D: you might as well run your server on a calculator supplied by potatoes.
+
+D: When Dahl presented Node.js, he was really motivated about the event loop. *click*
+-->
+
+---
+class: devil
+layout: center
+title: Ryan Dahl motivated
+---
+
+<SlidevVideo controls autoplay>
+    <source src="./RyanDahl_motivated.mp4" type="video/mp4" />
+</SlidevVideo>
+
+<!--
+*wait for video to finish*
+
+D: But later at JSConf 2018 this sounded a lot different. *click*
+-->
+
+---
+class: devil
+layout: center
+title: Ryan Dahl apologizes
+---
+
+<SlidevVideo controls autoplay>
+    <source src="./RyanDahl_regret.mp4" type="video/mp4" />
+</SlidevVideo>
+
+<!--
+*wait for video to finish*
+
+A: Aren't you taking things very out of context here?
+
+D: Of course, I am trying to make an argument here!
+
+A: Do you even know what an event loop is?
 -->
 
 ---
@@ -43,7 +81,9 @@ layout: center
 </div>
 
 <!--
-A: The JavaScript Runtime runs JavaScript Code in a single thread, but provides concurrency with via asynchronity in a non-blocking way through the runtime.
+A: The JavaScript Runtime runs JavaScript Code in a single thread, but provides concurrency with via asynchronity in a non-blocking way through the runtime by using the event loop.
+
+D: Whut?
 -->
 
 ---
