@@ -3,3 +3,4 @@ pnpm-lock.yaml
 dist
 *.webp
 *.jpg
+*.svg
