@@ -137,10 +137,11 @@ A: Yes, exactly! There's a lot of ways to do that. [click]
 class: angel
 ---
 
-# Offloading to other Server APIs
+# Offloading to other Servers
 
-- Computation-heavy tasks
-  - e.g. image processing, video transcoding, etc.
+- let other servers do the heavy lifting
+
+- fetch data via ReST, GraphQL, gRPC, etc.
 
 <ChuckNorris class="pt-5" v-click />
 
@@ -149,6 +150,18 @@ class: angel
 
 Select Chuck Norris joke.
 -->
+
+---
+class: angel
+---
+
+# Use Web Workers
+
+- run JavaScript in a separate thread
+
+- communicate with the main thread via message passing
+
+<WebWorker class="pt-5" v-click />
 
 ---
 class: angel
