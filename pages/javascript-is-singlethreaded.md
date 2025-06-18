@@ -155,22 +155,90 @@ Select Chuck Norris joke.
 class: angel
 ---
 
-# Use Web Workers
+# Use Workers
 
 - run JavaScript in a separate thread
 
 - communicate with the main thread via message passing
 
+- available in the browser (Web Workers) and Node.js (Worker Threads)
+
 <WebWorker class="pt-5" v-click />
+
+<!--
+[click]
+*start workers*
+-->
 
 ---
 class: angel
 ---
 
-# Using WASM / WASI
+# Using WASM
 
-<!-- TODO: come up with a running WebAssembly example -->
+- run code in from another language that compiles to WebAssembly
+
+- low-level bytecode that runs in the browser or Node.js
+
+<v-click>
+
+```wasm {monaco}
+  (module
+    (func (export "add") (param i32 i32) (result i32)
+       local.get 0 local.get 1 i32.add
+    ))
+```
+
+<WASM class="pt-5" />
+
+</v-click>
 
 <!--
-NOTES
+*read slide* [click]
+
+A: Web Assembly Text for a function that adds two numbers.
+
+*explain how to read it*
+
+D: You expect me to write code like this?
+
+A: No, this just makes WASM, which is binary code, readable.
+A: A lot of languages can compile to WASM, like Rust, C, C++, Go, etc.
 -->
+
+---
+class: angel
+---
+
+# Node.js Add-on SDK
+
+- write C++ code that can be called from JavaScript
+
+- can be used to access low-level system APIs
+
+<!--
+A: *explain slide*
+
+D: No example this time?
+
+A: No, C++ examples get big and complicated quickly. Besides, we can't run them in this presentation because the browser environment is sandboxed.
+-->
+
+---
+class: angel
+---
+
+# Summary
+
+- JavaScript is single-threaded, but can run code in the background
+
+<v-click>
+
+- Offloading
+
+  - Call APIs
+  - Use Workers
+  - Use WASM
+  - Use Native Code (Node.js)
+
+</v-click>
