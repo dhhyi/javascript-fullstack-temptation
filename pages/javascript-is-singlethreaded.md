@@ -137,12 +137,17 @@ A: Yes, exactly! There's a lot of ways to do that. [click]
 class: angel
 ---
 
-# Offloading to other APIs
+# Offloading to other Server APIs
 
-<!-- TODO: insert component loading Chuck Norris Joke -->
+- Computation-heavy tasks
+  - e.g. image processing, video transcoding, etc.
+
+<ChuckNorris class="pt-5" v-click />
 
 <!--
-NOTES
+[click]
+
+Select Chuck Norris joke.
 -->
 
 ---
