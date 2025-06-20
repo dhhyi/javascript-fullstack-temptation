@@ -238,7 +238,7 @@ transition: view-transition
 
 # TypeScript is awesome! -- String Types
 
-<<< @/snippets/types-from-strings.ts ts {1-2|4|6-10}
+<<< @/snippets/types-from-strings.ts ts {1-2|4|6-}
 
 <!--
 NOTES

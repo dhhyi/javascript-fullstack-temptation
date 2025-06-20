@@ -1,10 +1,11 @@
 type Area = "browsing" | "checkout" | "login";
 type Errors = "not-found" | "unauthorized";
 
-type AreaError = `${Area}:${Errors}`;
+type AreaError = `${Uppercase<Area>}:${Errors}`;
 
 type FilteredAreaError = Exclude<AreaError,
-    "browsing:unauthorized" | "checkout:not-found">;
+    "BROWSING:unauthorized" | "CHECKOUT:not-found">;
 
+type SpecialAreas = Extract<Area, 'browsing' | 'login'>;
 type FilteredAreaError2 = Extract<FilteredAreaError,
-    `${Extract<Area, 'browsing' | 'login'>}:${Errors}`>;
+    `${Uppercase<SpecialAreas>}:${Errors}`>;
