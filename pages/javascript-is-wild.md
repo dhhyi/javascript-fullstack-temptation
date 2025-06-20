@@ -230,3 +230,24 @@ class: angel
 <!--
 NOTES
 -->
+
+---
+class: angel
+transition: view-transition
+---
+
+# TypeScript is awesome! -- String Types
+
+<<< @/snippets/types-from-strings.ts ts {1-2|4|6-10}
+
+<!--
+NOTES
+-->
+
+---
+class: angel
+---
+
+# TypeScript is awesome! -- String Types
+
+<<< @/snippets/types-from-strings.ts ts {monaco} { editorOptions: { wordWrap: 'on' } }
