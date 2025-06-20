@@ -191,26 +191,20 @@ D: That's also nothing new. Various languages have an operator like this. Give m
 
 ---
 class: angel
+transition: view-transition
 ---
 
-# TypeScript is awesome!
+# TypeScript is awesome! -- Type Inference
 
-```ts {monaco}
-const eventTypes = ["click", "mouseover"];
+<<< @/snippets/infer.ts ts {1|3|1-5|7-14}
 
-type InferArrayType<T> = T extends (infer U)[] ? U : never;
+---
+class: angel
+---
 
-type EventType = InferArrayType<typeof eventTypes>;
+# TypeScript is awesome! -- Type Inference
 
-function handleEvent(eventType: EventType) {
-  switch (eventType) {
-    case "click":
-      break;
-    case "mousover":
-      break;
-  }
-}
-```
+<<< @/snippets/infer.ts ts {monaco}
 
 ---
 class: angel
@@ -229,7 +223,7 @@ NOTES
 class: angel
 ---
 
-# TypeScript is awesome! -- Duck Typing <small>📝</small>
+# TypeScript is awesome! -- Duck Typing
 
 <<< @/snippets/duck-typing.ts ts {monaco} { editorOptions: { wordWrap: 'on' } }
 
