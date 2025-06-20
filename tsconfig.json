@@ -1,0 +1,11 @@
+{
+  "include": ["**/*.js", "**/*.ts", "**/*.mjs"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "commonjs",
+    "target": "es6",
+    "esModuleInterop": true,
+    "checkJs": true,
+    "allowJs": true
+  }
+}
