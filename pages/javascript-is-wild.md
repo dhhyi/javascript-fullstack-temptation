@@ -213,7 +213,7 @@ transition: view-transition
 
 # TypeScript is awesome! -- Duck Typing
 
-<<< @/snippets/duck-typing.ts ts {1-8|10-14} { editorOptions: { wordWrap: 'on' } }
+<<< @/snippets/duck-typing.ts ts {1-8|10-14}
 
 <!--
 NOTES
@@ -225,7 +225,7 @@ class: angel
 
 # TypeScript is awesome! -- Duck Typing
 
-<<< @/snippets/duck-typing.ts ts {monaco} { editorOptions: { wordWrap: 'on' } }
+<<< @/snippets/duck-typing.ts ts {monaco}
 
 <!--
 NOTES
@@ -250,4 +250,4 @@ class: angel
 
 # TypeScript is awesome! -- String Types
 
-<<< @/snippets/types-from-strings.ts ts {monaco} { editorOptions: { wordWrap: 'on' } }
+<<< @/snippets/types-from-strings.ts ts {monaco}
