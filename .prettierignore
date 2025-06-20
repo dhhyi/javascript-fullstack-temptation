@@ -6,3 +6,4 @@ dist
 *.svg
 *.mp4
 examples/**/*.js
+snippets/**/*.ts

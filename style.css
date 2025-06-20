@@ -10,3 +10,13 @@
   font-size: 20px !important;
   line-height: normal !important;
 }
+
+:root {
+  --prism-font-size: 20px;
+  --prism-line-height: 27px;
+}
+
+.slidev-code-wrapper > pre {
+  padding-top: 15px !important;
+  padding-left: 20px !important;
+}

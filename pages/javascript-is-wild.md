@@ -138,7 +138,7 @@ if (formElement.value) {
 class: angel
 ---
 
-# JavaScript is awesome! -- Optional Chaining with Elvis Operator
+# JavaScript is awesome! -- Optional Chaining
 
 ```ts {monaco}
 interface User {
@@ -160,6 +160,12 @@ const city = user.address?.city;
 
 </v-click>
 
+<!--
+D: That's nothing special we have something like that in Kotlin and C# as well. If I remember correctly it was even introduced earlier than in JavaScript.
+
+A: but it is still not available in Java.
+-->
+
 ---
 class: angel
 ---
@@ -176,6 +182,12 @@ const user: User = { name: "John" };
 
 const city = user.address?.city ?? "Unknown City";
 ```
+
+<!--
+A: *explain slide*
+
+D: That's also nothing new. Various languages have an operator like this. Give me something unique to your language.
+-->
 
 ---
 class: angel
@@ -202,27 +214,24 @@ function handleEvent(eventType: EventType) {
 
 ---
 class: angel
+transition: view-transition
 ---
 
 # TypeScript is awesome! -- Duck Typing
 
-<!-- prettier-ignore -->
-```ts {monaco} { editorOptions: { wordWrap: 'on' } }
-type User = { name: string; age: number; }
-const user: User = { name: "John", age: 30 };
+<<< @/snippets/duck-typing.ts ts {1-8|10-14} { editorOptions: { wordWrap: 'on' } }
 
-interface Car { name: string; model: string; }
-const car: Car = { name: "Toyota", model: "Corolla" };
+<!--
+NOTES
+-->
 
-class Monument { constructor(public name: string) {} }
-const monument = new Monument("Eiffel Tower");
+---
+class: angel
+---
 
-function printName(obj: User | Car | Monument) { /* stuff */ }
+# TypeScript is awesome! -- Duck Typing <small>📝</small>
 
-printName(user);
-printName(car);
-printName(monument);
-```
+<<< @/snippets/duck-typing.ts ts {monaco} { editorOptions: { wordWrap: 'on' } }
 
 <!--
 NOTES
