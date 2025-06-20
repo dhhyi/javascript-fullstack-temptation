@@ -5,7 +5,7 @@
 0 == "0"; // -> true
 [] == "0"; // -> false
 
-"b" + "a" + +"a" + "a"; // -> 'baNaNa'
+"b" + "a"+ +"a" + "a"; // -> 'baNaNa'
 
 console.log(a); // -> 'undefined'
 var a = 1;

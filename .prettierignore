@@ -5,3 +5,4 @@ dist
 *.jpg
 *.svg
 *.mp4
+examples/**/*.js
