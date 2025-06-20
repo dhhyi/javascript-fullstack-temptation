@@ -1,12 +1,13 @@
 import js from "@eslint/js";
 import { defineConfig } from "eslint/config";
 import globals from "globals";
+import ts from "typescript-eslint";
 
 export default defineConfig([
   {
     files: ["**/*.{js,mjs,cjs}"],
     languageOptions: { globals: globals.browser },
-    plugins: { js },
+    plugins: { js, "@typescript-eslint": ts },
     rules: {
       eqeqeq: "error",
       "no-implicit-coercion": "error",
@@ -15,6 +16,7 @@ export default defineConfig([
       "no-var": "error",
       "prefer-const": "error",
       "no-useless-concat": "error",
+      "@typescript-eslint/require-array-sort-compare": "error",
     },
   },
 ]);
