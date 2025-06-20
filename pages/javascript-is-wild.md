@@ -8,39 +8,78 @@ class: devil
 "2" + 1
 ```
 
-```jseval {monaco-run} { autorun:false }
-[] == 0
-0 == "0"
-```
+<div class="min-h-12"></div>
 
 ```jseval {monaco-run} { autorun:false }
-'b' + 'a'+ +'a' + 'a'
+"2" - 1
 ```
 
 <!--
-1. "2" - 1 -> 0
-2. [] == "0" -> false
-3. baNaNa
+NOTES
 -->
 
 ---
 class: devil
 ---
 
-# JavaScript is wild! #2
+# JavaScript is wild!
+
+```jseval {monaco-run} { autorun:false }
+[] == 0
+0 == "0"
+```
+
+<div class="min-h-12"></div>
+
+```jseval {monaco-run} { autorun:false }
+[] == "0"
+```
+
+<!--
+NOTES
+-->
+
+---
+class: devil
+---
+
+# JavaScript is wild!
+
+```jseval {monaco-run} { autorun:false }
+'b' + 'a'+ +'a' + 'a'
+```
+
+<!--
+NOTES
+-->
+
+---
+class: devil
+---
+
+# JavaScript is wild!
 
 ```js {monaco-run} { autorun:false }
 console.log(a);
 var a = 1;
 ```
 
+<!--
+uncomment line with var -> ERROR
+-->
+
+---
+class: devil
+---
+
+# JavaScript is wild!
+
 ```jseval {monaco-run} { autorun:false }
 [1, 5, 12, 20, 80].sort()
 ```
 
 <!--
-1. uncomment line with var -> ERROR
-2. scrambles order
+scrambles order
 
 A: Wow, a lot of effort for this presentation! What is this based on?
 -->
