@@ -1,8 +1,8 @@
 const eventTypes = ["click", "mouseover"];
 
-type InferArrayType<T> = T extends readonly (infer U)[] ? U : never;
+type InferArrayT<T> = T extends readonly (infer U)[] ? U : never;
 
-type EventType = InferArrayType<typeof eventTypes>;
+type EventType = InferArrayT<typeof eventTypes>;
 
 function handleEvent(eventType: EventType) {
   switch (eventType) {
