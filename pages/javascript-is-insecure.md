@@ -22,9 +22,21 @@ class: angel
 
 # Heartbleed / Log4Shell
 
-<!-- TODO: add Links to Exploits / Logos to Libraries -->
+<div class="flex flex-col items-center">
+
+<img class="max-w-[400px]" src="./openssl_logo_library.svg" />
+
+<a href="https://www.cve.org/CVERecord?id=CVE-2014-0160">CVE-2014-0160</a>
+
+<img class="max-w-[400px]" src="./Apache_Log4j_Logo.svg" />
+
+<a href="https://www.cve.org/CVERecord?id=CVE-2021-44228">CVE-2021-44228</a>
+
+</div>
 
 <!--
+CVE - Common Vulnerabilities and Exposure
+
 A: Problem is not unique to JavaScript
   - Heartbleed Exploit
     - OpenSSL vulnerability
