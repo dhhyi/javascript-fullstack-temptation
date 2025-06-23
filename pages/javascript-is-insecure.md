@@ -50,12 +50,26 @@ A: Problem is not unique to JavaScript
 class: angel
 ---
 
-# JavaScript has `audit`
+# JavaScript has `npm audit`
+
+- built-in tool for checking for vulnerabilities
+
+- can be run manually or in CI/CD pipelines
+
+- can automatically fix some issues
+
+<v-click>
+
+- `npm audit fix` applies non-breaking changes
+
+- `--production` skips devDependencies
+
+- `--audit-level` sets the minimum severity level
+
+</v-click>
 
 <!--
 A: npm audit
-  - checks for known vulnerabilities in dependencies
-  - can be used to fix issues automatically (`npm audit fix`)
   - not all vulnerabilities are critical
   - not all vulnerabilities are automatically exploitable
 
@@ -64,3 +78,29 @@ A: This should be just the first point for an audit chain.
   - check with Docker security tools
   - run Serverless / run on checked infrastructure
 -->
+
+---
+class: angel
+---
+
+# More security tools
+
+- [Snyk](https://snyk.io/)
+
+- [Socket Security](https://socket.dev/)
+
+- [Dependabot](https://dependabot.com/)
+
+- ...
+
+<v-click>
+
+--> Malware Indicators
+
+--> Maintenance Signals (unmaintained, no updates, etc.)
+
+--> Risky Patterns (eval, new Function, etc.)
+
+- Integration in CI/CD
+
+</v-click>
