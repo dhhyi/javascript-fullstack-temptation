@@ -96,15 +96,35 @@ A: Let me explain by showing you the architecture of the JavaScript Runtime. [cl
 ---
 title: JavaScript Runtime Architecture
 class: angel
-layout: center
 ---
 
-<v-click hide>
-<img class="absolute top-0 left-[50px] max-h-[105%]" src="./JavaScriptRuntime.svg" alt="JavaScript Runtime Architecture" />
+<v-click at="0">
+  <div class="absolute top-0 left-[50px]">
+    <svg xmlns="http://www.w3.org/2000/svg" height="550" viewBox="0 0 297 210">
+      <use href="./JavaScriptRuntime_2.svg#layer1" />
+    </svg>
+  </div>
 </v-click>
-
 <v-click at="1">
-<img class="absolute top-0 left-[50px] max-h-[105%]" src="./JavaScriptRuntime_2.svg" alt="JavaScript Runtime Architecture" />
+  <div class="absolute top-0 left-[50px]">
+    <svg xmlns="http://www.w3.org/2000/svg" height="550" viewBox="0 0 297 210">
+      <use href="./JavaScriptRuntime_2.svg#layer2" />
+    </svg>
+  </div>
+</v-click>
+<v-click at="2">
+  <div class="absolute top-0 left-[50px]">
+    <svg xmlns="http://www.w3.org/2000/svg" height="550" viewBox="0 0 297 210">
+      <use href="./JavaScriptRuntime_2.svg#layer3" />
+    </svg>
+  </div>
+</v-click>
+<v-click at="3">
+  <div class="absolute top-0 left-[50px]">
+    <svg xmlns="http://www.w3.org/2000/svg" height="550" viewBox="0 0 297 210">
+      <use href="./JavaScriptRuntime_2.svg#layer4" />
+    </svg>
+  </div>
 </v-click>
 
 <!--
@@ -123,7 +143,7 @@ Bottom:
 
 
 
-When you now use a API [click] like setTimeout, you call the Runtime API with a callback. And continue executing code from stack.
+When you now use a API [click] like setTimeout, you call the API with a callback. And continue executing code from stack.
 
 Once the Timeout is reached, the Runtime puts callback into the Task Queue.
 

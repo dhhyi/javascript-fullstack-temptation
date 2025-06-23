@@ -29,11 +29,11 @@
      inkscape:cx="541.15501"
      inkscape:cy="398.7458"
      inkscape:window-width="1440"
-     inkscape:window-height="914"
+     inkscape:window-height="890"
      inkscape:window-x="-6"
      inkscape:window-y="-6"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
+     inkscape:current-layer="layer4">
     <inkscape:grid
        id="grid5"
        units="mm"
@@ -254,29 +254,51 @@
          style="fill:#000000;fill-opacity:1;stroke-width:1.32292"
          x="-127.92184"
          y="46.699852">HEAP</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Arrow1"
+     style="display:inline">
     <rect
-       style="fill:#ffffff;stroke:none;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:bevel;fill-opacity:0.56091368;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:0.560914;stroke:none;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
        id="rect8"
        width="268.18658"
        height="173.76717"
        x="15.958209"
        y="16.844776"
        rx="29.488268"
-       ry="31.888071" />
-    <path
-       style="fill:none;fill-opacity:0.560914;stroke:#000000;stroke-width:3.01625;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
-       d="m 240.70299,37.679103 c 55.47986,46.498502 34.2353,97.010797 20.83432,105.944777"
-       id="path9"
-       sodipodi:nodetypes="cc" />
-    <path
-       style="fill:none;fill-opacity:0.560914;stroke:#000000;stroke-width:3.01625;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
-       d="M 197.70447,172.43731 C 107.71791,192.82836 95.749253,117.47015 95.749253,117.47015"
-       id="path10"
-       sodipodi:nodetypes="cc" />
+       ry="31.888071"
+       inkscape:label="opaque" />
     <path
        style="fill:none;fill-opacity:0.560914;stroke:#000000;stroke-width:3.01625;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
        d="m 93.08955,78.017907 c 56.29702,-45.214921 88.65671,-41.22537 88.65671,-41.22537"
        id="path11"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:label="arrowStackAPI" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Arrow2"
+     style="display:inline">
+    <path
+       style="fill:none;fill-opacity:0.560914;stroke:#000000;stroke-width:3.01625;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
+       d="m 240.70299,37.679103 c 55.47986,46.498502 34.2353,97.010797 20.83432,105.944777"
+       id="path9"
+       sodipodi:nodetypes="cc"
+       inkscape:label="arrowAPITaskQueue" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Arrow3"
+     style="display:inline">
+    <path
+       style="fill:none;fill-opacity:0.560914;stroke:#000000;stroke-width:3.01625;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
+       d="M 197.70447,172.43731 C 107.71791,192.82836 95.749253,117.47015 95.749253,117.47015"
+       id="path10"
+       sodipodi:nodetypes="cc"
+       inkscape:label="arrowTaskQueueStack" />
   </g>
 </svg>
