@@ -34,3 +34,7 @@ src: pages/javascript-is-wild.md
 ---
 src: pages/javascript-is-insecure.md
 ---
+
+---
+src: pages/javascript-is-slow.md
+---
