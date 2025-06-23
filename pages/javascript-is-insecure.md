@@ -1,6 +1,7 @@
 ---
 class: devil
 layout: center
+title: Node Modules Gravity
 ---
 
 ![Node Modules Gravity](./node_modules.webp)

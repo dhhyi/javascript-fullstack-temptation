@@ -74,6 +74,7 @@ A: Let me explain what makes JavaScript special [click]
 ---
 class: angel
 layout: center
+title: Definition of JavaScript
 ---
 
 <div class="text-center">
@@ -226,6 +227,7 @@ A: No, C++ examples get big and complicated quickly. Besides, we can't run them 
 
 ---
 class: angel
+title: Summary for Using JavaScript effectively
 ---
 
 # Summary
