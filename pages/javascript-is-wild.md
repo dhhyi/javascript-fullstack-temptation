@@ -105,15 +105,38 @@ class: angel
 
 # ESLint is your friend!
 
-- linter for JavaScript, TypeScript, Templates
+<div class="flex justify-between">
+    <ul class="max-w-2/3">
+        <li>linter for JavaScript, TypeScript, Templates</li>
+        <li>easily create custom rules for custom code style guides</li>
+        <li>integrates with most editors</li>
+        <li>fixable rules</li>
+    </ul>
+    <div class="flex flex-wrap gap-5 justify-evenly *:h-[200px]">
+        <img src="./ESLint_logo.svg" />
+    </div>
+</div>
 
-- easily create custom rules for custom code style guides
+<!--
+NOTES
+-->
 
-- integrates with most editors
+---
+class: angel
+---
 
-- fixable rules
+# Prettier is your friend!
 
-<!-- TODO: add ESLint logo -->
+<div class="flex justify-between">
+    <ul class="max-w-2/3">
+        <li>opinionated code formatter for JavaScript, TypeScript, HTML, CSS, JSON, Markdown</li>
+        <li>integrates with most editors (or ESLint)</li>
+        <li>fixes code style issues automatically</li>
+    </ul>
+    <div class="flex flex-wrap gap-5 justify-center *:h-[200px]">
+        <img src="./prettier-1.svg" />
+    </div>
+</div>
 
 <!--
 NOTES

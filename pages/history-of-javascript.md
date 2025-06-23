@@ -67,15 +67,15 @@ class: angel
 # History doesn't matter
 
 <div class="flex">
-    <ul class="max-w-1/2 text">
+    <ul class="max-w-1/2">
         <li>Java was created in 1995 at Sun Microsystems for interactive television.</li>
         <li>Python was created in 1991 for Amoeba OS (a distributed operating system) which was not continued after a few versions.</li>
         <li>Lua was created in 1993 as an embeddable scripting language for extending applications.</li>
     </ul>
     <div class="flex flex-wrap gap-5 justify-evenly *:h-[200px]">
-        <img  src="./Java-Logo.svg" />
-        <img  src="./Python-logo-notext.svg" />
-        <img  src="./Lua-Logo.svg" />
+        <img src="./Java-Logo.svg" />
+        <img src="./Python-logo-notext.svg" />
+        <img src="./Lua-Logo.svg" />
     </div>
 </div>
 
