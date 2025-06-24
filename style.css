@@ -6,6 +6,18 @@
   background: linear-gradient(215deg, #87cefa, transparent 30%);
 }
 
+.tech-stack-table {
+  .topic {
+    font-weight: bold;
+  }
+  .devil-answer:not(.slidev-vclick-current) {
+    opacity: 0.2;
+  }
+  .angel-answer.slidev-vclick-current {
+    font-weight: bold;
+  }
+}
+
 .slidev-runner-output {
   font-size: 20px !important;
   line-height: normal !important;

@@ -38,3 +38,17 @@ src: pages/javascript-is-insecure.md
 ---
 src: pages/javascript-is-slow.md
 ---
+
+---
+src: pages/conclusion.md
+---
+
+---
+layout: cover
+title: Finish
+---
+
+<div class="flex flex-col justify-center items-center">
+  <h1>Thank You!</h1>
+  <h1>😇 ❤️ 😈</h1>
+</div>
