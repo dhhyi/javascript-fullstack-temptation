@@ -56,9 +56,19 @@ layout: center
 
 <!-- <Youtube id="aXcuz6fn8_w" height="500px" /> -->
 
-<SlidevVideo controls autoplay class="max-h-[500px]">
-    <source src="./the_untold_history_of_web_development.mp4" type="video/mp4" />
-</SlidevVideo>
+<div class="flex flex-row justify-center items-baseline gap-5 ml-36">
+    <SlidevVideo controls autoplay class="max-h-[500px]">
+        <source src="./the_untold_history_of_web_development.mp4" type="video/mp4" />
+    </SlidevVideo>
+    <QRCode
+        :width="150"
+        :height="150"
+        type="svg"
+        data="https://youtu.be/aXcuz6fn8_w"
+        :margin="10"
+        :dotsOptions="{ type: 'extra-rounded', color: 'gray' }"
+    />
+</div>
 
 <!--
 - from here on, web development turned into a big dumpster fire

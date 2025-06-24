@@ -39,9 +39,19 @@ layout: center
 title: Ryan Dahl motivated
 ---
 
-<SlidevVideo controls autoplay>
-    <source src="./RyanDahl_motivated.mp4" type="video/mp4" />
-</SlidevVideo>
+<div class="flex flex-row justify-center items-baseline ml-10 mr-5">
+    <SlidevVideo controls autoplay>
+        <source src="./RyanDahl_motivated.mp4" type="video/mp4" />
+    </SlidevVideo>
+    <QRCode
+        :width="150"
+        :height="150"
+        type="svg"
+        data="https://youtu.be/ztspvPYybIY"
+        :margin="10"
+        :dotsOptions="{ type: 'extra-rounded', color: 'gray' }"
+    />
+</div>
 
 <!--
 *wait for video to finish*
@@ -55,9 +65,19 @@ layout: center
 title: Ryan Dahl apologizes
 ---
 
-<SlidevVideo controls autoplay>
-    <source src="./RyanDahl_regret.mp4" type="video/mp4" />
-</SlidevVideo>
+<div class="flex flex-row justify-center items-baseline ml-10 mr-5">
+    <SlidevVideo controls autoplay>
+        <source src="./RyanDahl_regret.mp4" type="video/mp4" />
+    </SlidevVideo>
+    <QRCode
+        :width="150"
+        :height="150"
+        type="svg"
+        data="https://youtu.be/M3BM9TB-8yA"
+        :margin="10"
+        :dotsOptions="{ type: 'extra-rounded', color: 'gray' }"
+    />
+</div>
 
 <!--
 *wait for video to finish*
