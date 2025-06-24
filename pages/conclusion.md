@@ -16,10 +16,10 @@ class: angel
 <v-clicks>
     <div class="topic">Back-end</div>
     <div class="devil-answer">Elixir</div>
-    <div class="angel-answer">TypeScript / Next.js</div>
+    <div class="angel-answer">TypeScript / Node.js</div>
     <div class="topic">Front-end</div>
     <div class="devil-answer">Elm</div>
-    <div class="angel-answer">TypeScript / React</div>
+    <div class="angel-answer">TypeScript / Next.js</div>
     <div class="topic">Styling</div>
     <div class="devil-answer">Tailwind CSS</div>
     <div class="angel-answer">Tailwind CSS</div>
