@@ -277,7 +277,6 @@ title: Summary for Using JavaScript effectively
 <v-click>
 
 - Offloading
-
   - Call APIs
   - Use Workers
   - Use WASM

@@ -33,7 +33,6 @@ class: angel
 - use SSR (server-side rendering) or SSG (static site generation)
 
 - ship less initial JavaScript
-
   - use server components (React)
 
   - incremental hydration (Angular)
