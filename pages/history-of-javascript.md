@@ -54,7 +54,11 @@ class: devil
 layout: center
 ---
 
-<Youtube id="aXcuz6fn8_w" height="500px" />
+<!-- <Youtube id="aXcuz6fn8_w" height="500px" /> -->
+
+<SlidevVideo controls autoplay class="max-h-[500px]">
+    <source src="./the_untold_history_of_web_development.mp4" type="video/mp4" />
+</SlidevVideo>
 
 <!--
 - from here on, web development turned into a big dumpster fire
