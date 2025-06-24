@@ -82,12 +82,12 @@ class: angel
 
 <div class="flex">
     <ul class="max-w-1/2">
-        <li v-click="0">Java was created in 1995 at Sun Microsystems for interactive television.</li>
+        <li>Java was created in 1995 at Sun Microsystems for interactive television.</li>
         <li v-click="1">Python was created in 1991 for Amoeba OS (a distributed operating system) which was not continued after a few versions.</li>
         <li v-click="2">Lua was created in 1993 as an embeddable scripting language for extending applications.</li>
     </ul>
     <div class="flex flex-wrap gap-5 justify-evenly *:h-[200px]">
-        <img v-click="0" src="./Java-Logo.svg" />
+        <img src="./Java-Logo.svg" />
         <img v-click="1" src="./Python-logo-notext.svg" />
         <img v-click="2" src="./Lua-Logo.svg" />
     </div>

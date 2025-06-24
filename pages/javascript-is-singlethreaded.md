@@ -4,9 +4,9 @@ class: devil
 
 # JavaScript is Single-Threaded
 
-<v-clicks>
-
 - the JavaScript VM runs only a **single thread**
+
+<v-clicks>
 
 - it can only execute **one piece** of JS **at a time**
 
@@ -118,13 +118,11 @@ title: JavaScript Runtime Architecture
 class: angel
 ---
 
-<v-click at="0">
-  <div class="absolute top-0 left-[50px]">
-    <svg xmlns="http://www.w3.org/2000/svg" height="550" viewBox="0 0 297 210">
-      <use href="./JavaScriptRuntime_2.svg#layer1" />
-    </svg>
-  </div>
-</v-click>
+<div class="absolute top-0 left-[50px]">
+  <svg xmlns="http://www.w3.org/2000/svg" height="550" viewBox="0 0 297 210">
+    <use href="./JavaScriptRuntime_2.svg#layer1" />
+  </svg>
+</div>
 <v-click at="1">
   <div class="absolute top-0 left-[50px]">
     <svg xmlns="http://www.w3.org/2000/svg" height="550" viewBox="0 0 297 210">
