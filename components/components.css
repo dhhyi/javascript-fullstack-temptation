@@ -1,0 +1,4 @@
+input,
+button {
+  @apply p-3 border-2 rounded-xl;
+}

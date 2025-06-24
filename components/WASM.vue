@@ -1,24 +1,16 @@
 <template>
   <div>
     <div class="flex flex-row items-center justify-center gap-4">
-      <input
-        class="border-2 p-3 rounded-xl"
-        v-model.number="a"
-        placeholder="a"
-      />
-      <input
-        class="border-2 p-3 rounded-xl"
-        v-model.number="b"
-        placeholder="b"
-      />
-      <button class="border-2 p-3 rounded-xl" @click="callWasmAdd">
-        Add via WASM
-      </button>
+      <input v-model.number="a" placeholder="a" />
+      <input v-model.number="b" placeholder="b" />
+      <button @click="callWasmAdd">Add via WASM</button>
     </div>
     <div class="pt-4 text-xl" v-if="result !== null">Result: {{ result }}</div>
     <div v-if="error" style="color: red">Error: {{ error }}</div>
   </div>
 </template>
+
+<style scoped src="./components.css" />
 
 <script>
 export default {

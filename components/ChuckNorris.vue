@@ -1,13 +1,13 @@
 <template>
   <div>
-    <button class="border-2 p-3 rounded-xl" @click="fetchJoke">
-      Get Chuck Norris Joke
-    </button>
+    <button @click="fetchJoke">Get Chuck Norris Joke</button>
     <p v-if="loading">...</p>
     <p class="text-xl px-5" v-else-if="joke">{{ joke }}</p>
     <p v-else></p>
   </div>
 </template>
+
+<style scoped src="./components.css" />
 
 <script setup>
 import { ref } from "vue";

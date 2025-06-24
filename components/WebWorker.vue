@@ -1,13 +1,13 @@
 <template>
   <div>
-    <button class="border-2 p-3 rounded-xl" @click="startWorker">
-      Start Worker
-    </button>
+    <button @click="startWorker">Start Worker</button>
     <div class="flex flex-wrap gap-2 mt-4">
       <span v-for="n in numbers" :key="n">{{ n }}</span>
     </div>
   </div>
 </template>
+
+<style scoped src="./components.css" />
 
 <script>
 export default {
