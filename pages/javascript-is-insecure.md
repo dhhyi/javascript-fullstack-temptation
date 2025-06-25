@@ -7,14 +7,16 @@ title: Node Modules Gravity
 ![Node Modules Gravity](./node_modules.webp)
 
 <!--
-D: JS package manager download the entire internet for every project.
-  - unknown sources
-  - vulnerabilities
+🟥 JS package manager download the entire internet for every project.
 
-A: same problem for Maven and NuGet.
-  - npm audit
-  - exploit database
-  - support on GitHub
+- unknown sources
+- vulnerabilities
+
+🟦 not unique to JavaScript
+
+- problems in dependencies are always problems in your project
+
+🟦 [click] -> next slide
 -->
 
 ---
@@ -36,15 +38,19 @@ class: angel
 </div>
 
 <!--
-CVE - Common Vulnerabilities and Exposure
+🟦 *explain*
 
-A: Problem is not unique to JavaScript
-  - Heartbleed Exploit
+*CVE - Common Vulnerabilities and Exposure*
+
+- Heartbleed Exploit
     - OpenSSL vulnerability
     - allows reading memory of the server
-  - Log4Shell
+
+- Log4Shell
     - Log4j (Logging for Java) vulnerability
     - allows remote code execution
+
+🟦 [click] -> next slide
 -->
 
 ---
@@ -70,14 +76,15 @@ class: angel
 </v-click>
 
 <!--
-A: npm audit
+🟦 npm audit
   - not all vulnerabilities are critical
   - not all vulnerabilities are automatically exploitable
 
-A: This should be just the first point for an audit chain.
-  - run in Docker container (isolated environment)
-  - check with Docker security tools
-  - run Serverless / run on checked infrastructure
+🟦 [click] *explain*
+
+🟦 This should be just the first point for an audit chain.
+
+🟦 [click] -> next slide
 -->
 
 ---
@@ -105,3 +112,17 @@ class: angel
 - Integration in CI/CD
 
 </v-click>
+
+<!--
+🟦 *explain* [click] *explain*
+
+🟦 See? Security can be controlled, even in JavaScript Projects.
+
+🟥 I'm running out of arguments...
+
+🟦 Hehe
+
+🟥 Okay, just one more thing
+
+🟥 [click] -> next slide
+-->

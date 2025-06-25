@@ -11,7 +11,13 @@ class: devil
 - Studies show that users will leave if a page takes more than 3 seconds to load
 
 <!--
-NOTES
+🟥 *read slide*
+
+🟥 Wouldn't it be safer to do more on the server?
+
+🟦 Tooling around Webpages has drastically improved in the last decade.
+
+🟦 [click] -> next slide
 -->
 
 ---
@@ -38,3 +44,7 @@ class: angel
   - incremental hydration (Angular)
 
 </v-clicks>
+
+<!--
+🟦 *explain*
+-->

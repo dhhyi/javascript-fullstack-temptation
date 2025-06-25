@@ -18,7 +18,19 @@ addons:
 ## 😇 Heaven-Sent or Hell-Bound? 😈
 
 <!--
-INTRO
+"Can you guys help me?"
+
+🟦 Have faith in JavaScript, trust your fellow frontend developers!
+
+🟥 No, don't sell your soul to somebody else! Use a proper language for the backend!
+
+"Thank you for nothing."
+
+🟦 Why are you so against using JavaScript?
+
+🟥 Well, first of all, JavaScript has a very strange history.
+
+🟥 [click] -> next slide
 -->
 
 ---

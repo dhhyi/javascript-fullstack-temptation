@@ -17,9 +17,15 @@ class: devil
 </div>
 
 <!--
-D: Just 10 days!! What good can come out of that?
+🟥 *read slide*
 
-A: Well, our father did a very big project in just 6 days, remember?
+🟥 Just 10 days!! What good can come out of that?
+
+🟦 Well, our father did a very big project in just 6 days, remember?
+
+*laughter*
+
+🟥 [click] -> next slide
 -->
 
 ---
@@ -32,7 +38,11 @@ class: devil
 
 - criticized the "blocking" nature of I/O in traditional web servers like Apache
 
+<v-click>
+
 - 2010 npm was created to host and distribute modules
+
+</v-click>
 
 <div class="flex justify-evenly pt-5 gap-5 *:w-1/5">
     <img src="./V8_JavaScript_engine_logo_2.svg" />
@@ -41,11 +51,21 @@ class: devil
         <template #light><img src="./nodejsStackedDark.svg" /></template>
     </LightOrDark>
     <img src="./Apache_HTTP_server_logo.svg" />
-    <img src="./Npm-logo.svg" />
+    <img v-click="1" src="./Npm-logo.svg" />
 </div>
 
 <!--
-- ported V8 JavaScript engine from Google Chrome to Linux
+🟥 *read slide*
+
+🟥 ported V8 JavaScript engine from Google Chrome to Linux
+
+[click]
+
+🟥 *read last point*
+
+🟥 From here on, web development turned into a big dumpster fire
+
+🟥 [click] -> next slide
 -->
 
 ---
@@ -71,7 +91,11 @@ layout: center
 </div>
 
 <!--
-- from here on, web development turned into a big dumpster fire
+🟥 *let video finish*
+
+🟦 Yeah, very funny. But having a strange history really doesn't matter. JavaScript is not alone in that.
+
+🟦 [click] -> next slide
 -->
 
 ---
@@ -94,8 +118,13 @@ class: angel
 </div>
 
 <!--
-A:
-- Java: now used on embedded devices, Android, and server-side applications
-- Python: now used in data science, machine learning, web development, and more
-- Lua: now very big game development
+🟦 Java: now used on embedded devices, Android, and server-side applications
+
+🟦 [click] Python: now used in data science, machine learning, web development, and more
+
+🟦 [click] Lua: now very big game development
+
+🟥 Okay, history doesn't matter. But I also heard...
+
+🟥 [click] -> next slide
 -->

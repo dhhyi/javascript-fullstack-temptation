@@ -15,8 +15,15 @@ class: devil
 </v-clicks>
 
 <!--
-D: stress out that it is single-threaded
-D: when you want to downgrade your backend speed... [click]
+🟥 *read slide*
+
+🟥 [click]
+
+🟥 [click]
+
+🟥 when you want to downgrade your backend speed so much...
+
+🟥 [click] -> next slide
 -->
 
 ---
@@ -28,9 +35,13 @@ class: devil
 ![Potatoes running DOOM](./potatoes-running-doom.jpg)
 
 <!--
-D: you might as well run your server on a calculator supplied by potatoes.
+🟥 you might as well run your server on a calculator supplied by potatoes.
 
-D: When Dahl presented Node.js, he was really motivated about the event loop. [click]
+*laughter*
+
+🟥 When Dahl presented Node.js, he was really motivated about the event loop.
+
+🟥 [click] -> next slide
 -->
 
 ---
@@ -54,9 +65,11 @@ title: Ryan Dahl motivated
 </div>
 
 <!--
-*wait for video to finish*
+🟥 *wait for video to finish*
 
-D: But later at JSConf 2018 this sounded a lot different. [click]
+🟥 But later at JSConf 2018 this sounded a lot different.
+
+🟥 [click] -> next slide
 -->
 
 ---
@@ -80,15 +93,19 @@ title: Ryan Dahl apologizes
 </div>
 
 <!--
-*wait for video to finish*
+🟥 *wait for video to finish*
 
-A: Aren't you taking things very out of context here?
+*laughter*
 
-D: Of course, I am trying to make an argument here!
+🟦 Aren't you taking things very out of context here?
 
-A: Do you even know what an event loop is?
+🟥 Of course, I am trying to make an argument here!
 
-A: Let me explain what makes JavaScript special [click]
+*laughter*
+
+🟦 Do you even know what an event loop is? Let me explain what makes JavaScript special.
+
+🟦 [click] -> next slide
 -->
 
 ---
@@ -104,13 +121,15 @@ title: Definition of JavaScript
 </div>
 
 <!--
-A: *read slide*
+🟦 *read slide*
 
-A: In other words: The JavaScript Runtime runs JavaScript Code in a single thread, but provides concurrency with via asynchronity in a non-blocking way through the runtime by using the event loop.
+🟦 In other words: The JavaScript Runtime runs JavaScript Code in a single thread, but provides concurrency with via asynchronity in a non-blocking way through the runtime by using the event loop.
 
-D: Whut?
+🟥 Whut?
 
-A: Let me explain by showing you the architecture of the JavaScript Runtime. [click]
+🟦 Let me explain by showing you the architecture of the JavaScript Runtime.
+
+🟦 [click] -> next slide
 -->
 
 ---
@@ -146,7 +165,7 @@ class: angel
 </v-click>
 
 <!--
-*A exclusively*
+*🟦 exclusively*
 
 On the left JavaScript VM (Google V8)
 - single heap and single stack
@@ -161,15 +180,17 @@ Bottom:
 
 
 
-When you now use a API [click] like setTimeout, you call the API with a callback. And continue executing code from stack.
+🟦 When you now use a API like setTimeout, [click] you call the API with a callback. And continue executing code from stack.
 
-Once the Timeout is reached, the Runtime puts callback into the Task Queue.
+🟦 Once the Timeout is reached, [click] the Runtime puts callback into the Task Queue.
 
-When the stack is empty, the Event Loop takes the first task from the Task Queue and puts it into the stack.
+🟦 When the stack is empty, [click] the Event Loop takes the first task from the Task Queue and puts it into the stack.
 
-D: So as a result, I should push tasks into the Runtime and not do them in JavaScript?
+🟥 So as a result, I should push tasks into the Runtime and not do them in the JavaScript VM?
 
-A: Yes, exactly! There's a lot of ways to do that. [click]
+🟦 Yes, exactly! There's a lot of ways to do that.
+
+🟦 [click] -> next slide
 -->
 
 ---
@@ -185,9 +206,15 @@ class: angel
 <ChuckNorris class="pt-5" v-click />
 
 <!--
-[click]
+🟦 *read slide*
 
-Select Chuck Norris joke.
+🟦 [click] Select Chuck Norris joke.
+
+🟦 other one?
+
+🟥 yes, that's a good one.
+
+🟦 [click] -> next slide
 -->
 
 ---
@@ -205,8 +232,11 @@ class: angel
 <WebWorker class="pt-5" v-click />
 
 <!--
-[click]
-*start workers*
+🟦 *read slide*
+
+🟦 [click] *start workers*
+
+🟦 [click] -> next slide
 -->
 
 ---
@@ -233,16 +263,17 @@ class: angel
 </v-click>
 
 <!--
-*read slide* [click]
+🟦 *read slide*
 
-A: Web Assembly Text for a function that adds two numbers.
+🟦 [click] Example in Web Assembly Text for a function that adds two numbers. *explain how to read it*
 
-*explain how to read it*
+🟥 You expect me to write code like this?
 
-D: You expect me to write code like this?
+🟦 No, this just makes WASM, which is binary code, readable.
 
-A: No, this just makes WASM, which is binary code, readable.
-A: A lot of languages can compile to WASM, like Rust, C, C++, Go, etc.
+🟦 A lot of languages can compile to WASM, like Rust, C, C++, Go, etc.
+
+🟦 [click] -> next slide
 -->
 
 ---
@@ -256,11 +287,13 @@ class: angel
 - can be used to access low-level system APIs
 
 <!--
-A: *explain slide*
+🟦 *explain slide*
 
-D: No example this time?
+🟥 No example this time?
 
-A: No, C++ examples get big and complicated quickly. Besides, we can't run them in this presentation because the browser environment is sandboxed.
+🟦 No, C++ examples get big and complicated quickly. Besides, we can't run them in this presentation because the browser environment is sandboxed.
+
+🟦 [click] -> next slide
 -->
 
 ---
@@ -281,3 +314,11 @@ title: Summary for Using JavaScript effectively
   - Use Native Code (Node.js)
 
 </v-click>
+
+<!--
+🟦 *read slide* [click] *read slide*
+
+🟥 Okay, now I see how JavaScript is supposed to be used. I'm still not convinced, because ...
+
+🟥 [click] -> next slide
+-->
