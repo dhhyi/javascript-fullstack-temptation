@@ -93,7 +93,11 @@ layout: center
 <!--
 🟥 *let video finish*
 
-🟦 Yeah, very funny. But having a strange history really doesn't matter. JavaScript is not alone in that.
+🟦 Yeah, very funny. Let me enlighten you!
+
+🟦 *Switch to light mode*
+
+🟦 Having a strange history really doesn't matter. JavaScript is not alone in that.
 
 🟦 [click] -> next slide
 -->
