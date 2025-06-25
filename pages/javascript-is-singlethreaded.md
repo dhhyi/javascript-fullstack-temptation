@@ -15,7 +15,7 @@ class: devil
 </v-clicks>
 
 <!--
-🟥 *read slide*
+🟥 *read slide starting first bullet point*
 
 🟥 [click]
 
@@ -97,7 +97,7 @@ title: Ryan Dahl apologizes
 
 *laughter*
 
-🟦 Aren't you taking things very out of context here?
+🟦 Aren't you taking things a bit out of context?
 
 🟥 Of course, I am trying to make an argument here!
 

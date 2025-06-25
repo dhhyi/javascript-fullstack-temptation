@@ -128,6 +128,8 @@ class: angel
 
 🟦 [click] Lua: now very big game development
 
+🟦 Do you still think history is important?
+
 🟥 Okay, history doesn't matter. But I also heard...
 
 🟥 [click] -> next slide

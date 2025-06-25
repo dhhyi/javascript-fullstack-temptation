@@ -4,7 +4,7 @@ class: devil
 
 # JavaScript is wild!
 
-```jseval {monaco-run} { autorun:false }
+```jseval {monaco-run} { autorun:true }
 "2" + 1
 ```
 
@@ -12,13 +12,15 @@ class: devil
 
 <v-click>
 
-```jseval {monaco-run} { autorun:false }
+```jseval {monaco-run} { autorun:true }
 "2" - 1
 ```
 
 </v-click>
 
 <!--
+🟥 JavaScript is wild!
+
 🟥 someone invented a language, where
 
 🟥 *First example*
@@ -34,16 +36,16 @@ class: devil
 
 # JavaScript is wild!
 
-```jseval {monaco-run} { autorun:false }
+```jseval {monaco-run} { autorun:true }
 [] == 0
-0 == "0"
+"0" == 0
 ```
 
 <div class="min-h-12"></div>
 
 <v-click>
 
-```jseval {monaco-run} { autorun:false }
+```jseval {monaco-run} { autorun:true }
 [] == "0"
 ```
 
@@ -65,7 +67,7 @@ class: devil
 
 # JavaScript is wild!
 
-```jseval {monaco-run} { autorun:false }
+```jseval {monaco-run} { autorun:true }
 'b' + 'a'+ +'a' + 'a'
 ```
 
@@ -100,7 +102,7 @@ class: devil
 
 # JavaScript is wild!
 
-```jseval {monaco-run} { autorun:false }
+```jseval {monaco-run} { autorun:true }
 [1, 5, 12, 20, 80].sort()
 ```
 
