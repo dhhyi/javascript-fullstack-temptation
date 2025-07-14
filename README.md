@@ -2,6 +2,14 @@
 
 This repository contains the slides for the talk "JavaScript Fullstack Temptation - Heaven-Sent or Hell-Bound?" presented at [Tech & Saints Week 2025](https://techsaints.vercel.app/) in Lisbon.
 
+## Watch the Talk on YouTube
+
+<p align="center">
+    <a href="https://www.youtube.com/watch?v=D8KX2q4LCIY">
+        <img src="https://img.youtube.com/vi/D8KX2q4LCIY/maxresdefault.jpg" width="300" alt="Watch the video" />
+    </a>
+</p>
+
 ## GitHub Pages
 
 The slides are hosted on GitHub Pages at [https://dhhyi.github.io/javascript-fullstack-temptation/](https://dhhyi.github.io/javascript-fullstack-temptation/).
